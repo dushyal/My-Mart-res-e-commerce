@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Mart-grocery </title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="website icon" href="Logos/Brand logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha2-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCrCk+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+        integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="d1">
+        <nav class=" my-nav navbar navbar-expand-lg navbar-light bg-dark">
+            <a class="brand-logo navbar-brand" href="index.html"><img src="Logos/grocery logo.png" width="100px"></a>
+            <form class="sm-d-searchbar form-inline my-2 my-lg-0 d-lg-none">
+                <input class="form-control mr-sm-2 w-75" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-dark my-2 my-sm-0 text-white border border-white" type="submit"><i
+                        class="fa-solid fa-magnifying-glass"></i></button>
+            </form>
+
+            <div class=" collapse navbar-collapse m-3 p-2 bg-dark" id="navbarSupportedContent">
+                <ul class="nav-list navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-a nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-a nav-link " href="Mobiles.html">Mobiles</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-a nav-link" href="Grocery.html">Grocery</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-a nav-link " href="Fashion.html">Fashion</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-a nav-link " href="Electronics.html">Electronics</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-dark  border border-white text-white my-sm-0"
+                        type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+        <section class="new-nav border d-lg-none">
+            <div class="new-nav-item col-3"><a href="Mobiles.html"><img src="Nav logo/Mobile nav logo.webp"
+                        width="64px">Mobiles</a></div>
+            <div class="new-nav-item col-3"><a href="Grocery.html"><img src="Nav logo/grocery nav logo.webp"
+                        width="64px">Grocery</a></div>
+            <div class="new-nav-item col-3"><a href="Fashion.html"><img src="Nav logo/Fashion nav logo.webp"
+                        width="64px">Fashion</a></div>
+            <div class="new-nav-item col-3"><a href="Electronics.html"><img src="Nav logo/Eletcronics nav logo.webp"
+                        width="64px">Electronics</a></div>
+        </section>
+        <h1 class="g-h1">Grocery</h1>
+        <h3 class="text text-dark">FOOD ESSENTIALS</h3>
+        <div class="cointainer p-2">
+            <div class="row m-2">
+                <div class="g-card card col-6 col-md-4 col-lg-2 mb-2" style="width: 160px;"><a href="Grocery.html">
+                        <img src="grocery/Food Essentials/1.jpeg" class="g-card-img card-img-top" alt="oil">
+                        <div class="card-body">
+                            <h5 class="card-title text-dark">FORTUNE Sugar (White Sakhar)</h5>
+                            <div class="price-section">
+                                <span class="current-price">₹51</span>
+                                <span class="original-price">₹60</span>
+                                <span class="discount">15% off</span>
+                            </div>
+
+                            <div class="g-btn"><a href="#" class="btn btn-primary d-none d-lg-block">ADD CARD</a> <a
+                                    href="#" class="btn btn-primary">BUY NOW</a></div>
+                        </div>
+                </div>
+                <div class="g-card card col-6 col-md-4 col-lg-2 mb-2" style="width: 160px;"><a href="Grocery.html">
+                        <img src="grocery/Food Essentials/2.jpeg" class="g-card-img card-img-top" alt="oil">
+                        <div class="card-body">
+                            <h5 class="card-title text-dark">FORTUNE Sunflower Oil</h5>
+                            <div class="price-section">
+                                <span class="current-price">₹154</span>
+                                <span class="original-price">₹190</span>
+                                <span class="discount">18% off</span>
+                            </div>
+                            <div class="g-btn"><a href="#" class="btn btn-primary d-none d-lg-block">ADD CARD</a> <a
+                                    href="#" class="btn btn-primary">BUY NOW</a></div>
+                        </div>
+                </div></a>
+                <div class="g-card card col-6 col-md-4 col-lg-2 mb-2" style="width: 160px;"><a href="Grocery.html">
+                        <img src="grocery/Food Essentials/3.jpeg" class="g-card-img card-img-top" alt="oil">
+                        <div class="card-body">
+                            <h5 class="card-title text-dark">FORTUNE kachi ghani Oil 5kg</h5>
+                            <div class="price-section">
+                                <span class="current-price">₹1,005</span>
+                                <span class="original-price">₹1,150</span>
+                                <span class="discount">12% off</span>
+                            </div>
+                            <div class="g-btn"><a href="#" class="btn btn-primary d-none d-lg-block">ADD CARD</a> <a
+                                    href="#" class="btn btn-primary">BUY NOW</a></div>
+                        </div>
+                </div></a>
+                <div class="g-card card col-6 col-md-4 col-lg-2 mb-2" style="width: 160px;"><a href="Grocery.html">
+                        <img src="grocery/Food Essentials/4.jpeg" class="g-card-img card-img-top" alt="oil">
+                        <div class="card-body">
+                            <h5 class="card-title text-dark">FORTUNE kachi ghani Oil 1L</h5>
+                            <div class="price-section">
+                                <span class="current-price">₹172</span>
+                                <span class="original-price">₹5</span>
+                                <span class="discount">20% off</span>
+                            </div>
+                            <div class="g-btn"><a href="#" class="btn btn-primary d-none d-lg-block">ADD CARD</a> <a
+                                    href="#" class="btn btn-primary">BUY NOW</a></div>
+                        </div>
+                </div></a>
+                <div class="g-card card col-6 col-md-4 col-lg-2 mb-2" style="width: 160px;"><a href="Grocery.html">
+                        <img src="grocery/Food Essentials/5.jpeg" class="g-card-img card-img-top" alt="oil">
+                        <div class="card-body">
+                            <h5 class="card-title text-dark">Amul Pure Ghee</h5>
+                            <div class="price-section">
+                                <span class="current-price">₹595</span>
+                                <span class="original-price">₹635</span>
+                                <span class="discount">6% off</span>
+                            </div>
+                            <div class="g-btn"><a href="#" class="btn btn-primary d-none d-lg-block">ADD CARD</a> <a
+                                    href="#" class="btn btn-primary">BUY NOW</a></div>
+                        </div>
+                </div></a>
+                <div class="g-card card col-6 col-md-4 col-lg-2 mb-2" style="width: 160px;"><a href="Grocery.html">
+                        <img src="grocery/Food Essentials/6.jpeg" class="g-card-img card-img-top" alt="oil">
+                        <div class="card-body">
+                            <h5 class="card-title text-dark">Farmley Dry Fruit Mix</h5>
+                            <div class="price-section">
+                                <span class="current-price">₹9</span>
+                                <span class="original-price">₹299</span>
+                                <span class="discount">26% off</span>
+                            </div>
+                            <div class="g-btn"><a href="#" class="btn btn-primary d-none d-lg-block">ADD CARD</a> <a
+                                    href="#" class="btn btn-primary">BUY NOW</a></div>
+                        </div>
+                </div></a>
+                <div class="g-card card col-6 col-md-4 col-lg-2 mb-2" style="width: 160px;"><a href="Grocery.html">
+                        <img src="grocery/Food Essentials/7.jpeg" class="g-card-img card-img-top" alt="oil">
+                        <div class="card-body">
+                            <h5 class="card-title text-dark">Pillsbury chakki Atta</h5>
+                            <div class="price-section">
+                                <span class="current-price">₹260</span>
+                                <span class="original-price">₹263</span>
+                                <span class="discount">1% off</span>
+                            </div>
+                            <div class="g-btn"><a href="#" class="btn btn-primary d-none d-lg-block">ADD CARD</a> <a
+                                    href="#" class="btn btn-primary">BUY NOW</a></div>
+                        </div>
+                </div></a>
+                <div class="g-card card col-6 col-md-4 col-lg-2 mb-2" style="width: 160px;"><a href="Grocery.html">
+                        <img src="grocery/Food Essentials/8.jpeg" class="g-card-img card-img-top" alt="oil">
+                        <div class="card-body">
+                            <h5 class="card-title text-dark">Kalbavi papular (Kaju)</h5>
+                            <div class="price-section">
+                                <span class="current-price">₹477</span>
+                                <span class="original-price">₹649</span>
+                                <span class="discount">26% off</span>
+                            </div>
+                            <div class="g-btn"><a href="#" class="btn btn-primary d-none d-lg-block">ADD CARD</a> <a
+                                    href="#" class="btn btn-primary">BUY NOW</a></div>
+                        </div>
+                </div></a>
+                <div class="g-card card col-6 col-md-4 col-lg-2 mb-2" style="width: 160px;"><a href="Grocery.html">
+                        <img src="grocery/Food Essentials/9.jpeg" class="g-card-img card-img-top" alt="oil">
+                        <div class="card-body">
+                            <h5 class="card-title text-dark">EVEREST Kashmirilal chilli power</h5>
+                            <div class="price-section">
+                                <span class="current-price">₹101</span>
+                                <span class="original-price">₹110</span>
+                                <span class="discount">8% off</span>
+                            </div>
+                            <div class="g-btn"><a href="#" class="btn btn-primary d-none d-lg-block">ADD CARD</a> <a
+                                    href="#" class="btn btn-primary">BUY NOW</a></div>
+                        </div>
+                </div></a>
+                <div class="g-card card col-6 col-md-4 col-lg-2 mb-2" style="width: 160px;"><a href="Grocery.html">
+                        <img src="grocery/Food Essentials/10.jpeg" class="g-card-img card-img-top" alt="oil">
+                        <div class="card-body">
+                            <h5 class="card-title text-dark">Ching's Fried Rice Masala</h5>
+                            <div class="price-section">
+                                <span class="current-price">₹55</span>
+                                <span class="original-price">₹60</span>
+                                <span class="discount">8% off</span>
+                            </div>
+                            <div class="g-btn"><a href="#" class="btn btn-primary d-none d-lg-block">ADD CARD</a> <a
+                                    href="#" class="btn btn-primary">BUY NOW</a></div>
+                        </div>
+                </div></a>
+                <div class="g-card card col-6 col-md-4 col-lg-2 mb-2" style="width: 160px;"><a href="Grocery.html">
+                        <img src="grocery/Food Essentials/11.jpeg" class="g-card-img card-img-top" alt="oil">
+                        <div class="card-body">
+                            <h5 class="card-title text-dark">TATA Sampann Raising</h5>
+                            <div class="price-section">
+                                <span class="current-price">₹96</span>
+                                <span class="original-price">₹110</span>
+                                <span class="discount">12% off</span>
+                            </div>
+                            <div class="g-btn"><a href="#" class="btn btn-primary d-none d-lg-block">ADD CARD</a> <a
+                                    href="#" class="btn btn-primary">BUY NOW</a></div>
+                        </div>
+                </div></a>
+                <div class="g-card card col-6 col-md-4 col-lg-2 mb-2" style="width: 160px;"><a href="Grocery.html">
+                        <img src="grocery/Food Essentials/12.jpeg" class="g-card-img card-img-top" alt="oil">
+                        <div class="card-body">
+                            <h5 class="card-title text-dark">Saffola Soya Chunks</h5>
+                            <div class="price-section">
+                                <span class="current-price">₹79</span>
+                                <span class="original-price">₹150</span>
+                                <span class="discount">47% off</span>
+                            </div>
+                            <div class="g-btn">
+                                <a href="#" class="btn btn-primary d-none d-lg-block">ADD CARD</a> <a href="#"
+                                    class="btn btn-primary">BUY NOW</a>
+                            </div>
+                        </div>
+                </div></a>
+            </div>
+        </div></a>
+        <h3>Oral Care</h3>
+        <div class="cointainer">
+            <div class="row m-2">
+                <div class="g-card card col-6 col-md-4 col-lg-2" style="width: 160px;"><a href="Grocery.html">
+                        <img src="grocery/Oral Care/1.jpeg" class="g-card-img card-img-top" alt="oil">
+                        <div class="card-body">
+                            <h5 class="card-title text-dark">Colgate Extra Clean Toothbrush</h5>
+                            <div class="price-section">
+                                <span class="current-price">₹96</span>
+                                <span class="original-price">₹120</span>
+                                <span class="discount">20% off</span>
+                            </div>
+
+                            <div class="g-btn"><a href="#" class="btn btn-primary d-none d-lg-block">ADD CARD</a> <a
+                                    href="#" class="btn btn-primary">BUY NOW</a></div>
+                        </div>
+                </div>
+                <div class="g-card card col-6 col-md-4 col-lg-2" style="width: 160px;"><a href="Grocery.html">
+                        <img src="grocery/Oral Care/2.jpeg" class="g-card-img card-img-top" alt="oil">
+                        <div class="card-body">
+                            <h5 class="card-title text-dark">Closeup Plaste</h5>
+                            <div class="price-section">
+                                <span class="current-price">₹164</span>
+                                <span class="original-price">₹240</span>
+                                <span class="discount">31% off</span>
+                            </div>
+                            <div class="g-btn"><a href="#" class="btn btn-primary d-none d-lg-block">ADD CARD</a> <a
+                                    href="#" class="btn btn-primary">BUY NOW</a></div>
+                        </div>
+                </div></a>
+                <div class="g-card card col-6 col-md-4 col-lg-2" style="width: 160px;"><a href="Grocery.html">
+                        <img src="grocery/Oral Care/3.jpeg" class="g-card-img card-img-top" alt="oil">
+                        <div class="card-body">
+                            <h5 class="card-title text-dark">Colgate MaxFresh Toothpaste</h5>
+                            <div class="price-section">
+                                <span class="current-price">₹167</span>
+                                <span class="original-price">₹265</span>
+                                <span class="discount">36% off</span>
+                            </div>
+                            <div class="g-btn"><a href="#" class="btn btn-primary d-none d-lg-block">ADD CARD</a> <a
+                                    href="#" class="btn btn-primary">BUY NOW</a></div>
+                        </div>
+                </div></a>
+                <div class="g-card card col-6 col-md-4 col-lg-2" style="width: 160px;"><a href="Grocery.html">
+                        <img src="grocery/Oral Care/4.jpeg" class="g-card-img card-img-top" alt="oil">
+                        <div class="card-body">
+                            <h5 class="card-title text-dark">Colgate Lemon Toothpaste</h5>
+                            <div class="price-section">
+                                <span class="current-price">₹0</span>
+                                <span class="original-price">₹370</span>
+                                <span class="discount">43% off</span>
+                            </div>
+                            <div class="g-btn"><a href="#" class="btn btn-primary d-none d-lg-block">ADD CARD</a> <a
+                                    href="#" class="btn btn-primary">BUY NOW</a></div>
+                        </div>
+                </div></a>
+                <div class="g-card card col-6 col-md-4 col-lg-2" style="width: 160px;"><a href="Grocery.html">
+                        <img src="grocery/Oral Care/5.jpeg" class="g-card-img card-img-top" alt="oil">
+                        <div class="card-body">
+                            <h5 class="card-title text-dark">SENSODYNE Toothpaste</h5>
+                            <div class="price-section">
+                                <span class="current-price">₹6</span>
+                                <span class="original-price">₹240</span>
+                                <span class="discount">10% off</span>
+                            </div>
+                            <div class="g-btn"><a href="#" class="btn btn-primary d-none d-lg-block">ADD CARD</a> <a
+                                    href="#" class="btn btn-primary">BUY NOW</a></div>
+                        </div>
+                </div></a>
+                <div class="g-card card col-6 col-md-4 col-lg-2" style="width: 160px;"><a href="Grocery.html">
+                        <img src="grocery/Oral Care/6.jpeg" class="g-card-img card-img-top" alt="oil">
+                        <div class="card-body">
+                            <h5 class="card-title text-dark">colgate Salt Toothpaste</h5>
+                            <div class="price-section">
+                                <span class="current-price">₹181</span>
+                                <span class="original-price">₹6</span>
+                                <span class="discount">16% off</span>
+                            </div>
+                            <div class="g-btn"><a href="#" class="btn btn-primary d-none d-lg-block">ADD CARD</a> <a
+                                    href="#" class="btn btn-primary">BUY NOW</a></div>
+                        </div>
+                </div></a>
+            </div>
+            <h3>Hair Care</h3></a>
+            <div class="cointainer">
+                <div class="row m-2">
+                    <div class="g-card card col-6 col-md-4 col-lg-2" style="width: 160px;"><a href="Grocery.html">
+                            <img src="grocery/Hair Care/1.jpeg" class="g-card-img card-img-top" alt="oil">
+                            <div class="card-body">
+                                <h5 class="card-title text-dark">Beer Shampoo</h5>
+                        </a>
+                        <div class="price-section">
+                            <span class="current-price">₹390</span>
+                            <span class="original-price">₹710</span>
+                            <span class="discount">45% off</span>
+                        </div>
+
+                        <div class="g-btn"><a href="#" class="btn btn-primary d-none d-lg-block">ADD CARD</a>
+                            <a href="#" class="btn btn-primary">BUY NOW</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="g-card card col-6 col-md-4 col-lg-2" style="width: 160px;"><a href="Grocery.html">
+                        <img src="grocery/Hair Care/2.jpeg" class="g-card-img card-img-top" alt="oil">
+                        <div class="card-body">
+                            <h5 class="card-title text-dark">Clinic Plus Shampoo</h5>
+                            <div class="price-section">
+                                <span class="current-price">₹580</span>
+                                <span class="original-price">₹959</span>
+                                <span class="discount">39% off</span>
+                            </div>
+                            <div class="g-btn"><a href="#" class="btn btn-primary d-none d-lg-block
+">ADD CARD</a> <a href="#" class="btn btn-primary">BUY NOW</a></div>
+                        </div>
+                </div>
+                <div class="g-card card col-6 col-md-4 col-lg-2" style="width: 160px;"><a href="Grocery.html">
+                        <img src="grocery/Hair Care/3.jpeg" class="g-card-img card-img-top" alt="oil">
+                        <div class="card-body">
+                            <h5 class="card-title text-dark">BAJAJ Almond Shampoo</h5>
+                            <div class="price-section">
+                                <span class="current-price">₹242</span>
+                                <span class="original-price">₹520</span>
+                                <span class="discount">53% off</span>
+                            </div>
+                            <div class="g-btn"><a href="#" class="btn btn-primary d-none d-lg-block
+">ADD CARD</a> <a href="#" class="btn btn-primary">BUY NOW</a></div>
+                        </div>
+                </div></a>
+                <div class="g-card card col-6 col-md-4 col-lg-2" style="width: 160px;"><a href="Grocery.html">
+                        <img src="grocery/Hair Care/4.jpeg" class="g-card-img card-img-top" alt="oil">
+                        <div class="card-body">
+                            <h5 class="card-title text-dark">Kesh King Shampoo</h5>
+                            <div class="price-section">
+                                <span class="current-price">₹337</span>
+                                <span class="original-price">₹675</span>
+                                <span class="discount">50% off</span>
+                            </div>
+                            <div class="g-btn"><a href="#" class="btn btn-primary d-none d-lg-block
+">ADD CARD</a> <a href="#" class="btn btn-primary">BUY NOW</a></div>
+                        </div>
+                </div></a>
+                <div class="g-card card col-6 col-md-4 col-lg-2" style="width: 160px;"><a href="Grocery.html">
+                        <img src="grocery/Hair Care/5.jpeg" class="g-card-img card-img-top" alt="oil">
+                        <div class="card-body">
+                            <h5 class="card-title text-dark">L'Orel Paris Shampoo</h5>
+                            <div class="price-section">
+                                <span class="current-price">₹319</span>
+                                <span class="original-price">₹399</span>
+                                <span class="discount">20% off</span>
+                            </div>
+                            <div class="g-btn"><a href="#" class="btn btn-primary d-none d-lg-block
+">ADD CARD</a> <a href="#" class="btn btn-primary">BUY NOW</a></div>
+                        </div>
+                </div></a>
+                <div class="g-card card col-6 col-md-4 col-lg-2" style="width: 160px;"><a href="Grocery.html"><a
+                            href="Grocery.html">
+                            <img src="grocery/Hair Care/6.jpeg" class="g-card-img card-img-top" alt="oil"></a>
+                        <div class="card-body">
+                            <h5 class="card-title text-dark text-dark">Parish Hyaluron Shampoo</h5>
+                    </a>
+                    </a>
+                    <div class="price-section">
+                        <span class="current-price">₹403</span>
+                        <span class="original-price">₹429</span>
+                        <span class="discount">6% off</span>
+                    </div>
+
+                    <div class="g-btn"><a href="#" class="btn btn-primary d-none d-lg-block">ADD CARD</a> <a href="#"
+                            class="btn btn-primary">BUY NOW</a></div>
+                </div>
+            </div>
+        </div>
+        <h3> Household Care</h3>
+        <div class="cointainer">
+            <div class="row m-2">
+                <div class="g-card card col-6 col-md-4 col-lg-2" style="width: 160px;"><a href="Grocery.html">
+                        <img src="grocery/Household Care/1.jpeg" class="g-card-img card-img-top" alt="oil">
+                        <div class="card-body">
+                            <h5 class="card-title text-dark">VIM Dishwash Bar</h5>
+                    </a>
+                    <div class="price-section">
+                        <span class="current-price">₹77</span>
+                        <span class="original-price">₹86</span>
+                        <span class="discount">10% off</span>
+                    </div>
+
+                    <div class="g-btn"><a href="#" class="btn btn-primary d-none d-lg-block
+">ADD CARD</a> <a href="#" class="btn btn-primary">BUY NOW</a></div>
+                </div>
+            </div>
+            <div class="g-card card col-6 col-md-4 col-lg-2" style="width: 160px;"><a href="Grocery.html">
+                    <img src="grocery/Household Care/2.jpeg" class="g-card-img card-img-top" alt="oil">
+                    <div class="card-body">
+                        <h5 class="card-title text-dark">Comfort Morning Fresh</h5>
+                        <div class="price-section">
+                            <span class="current-price">₹396</span>
+                            <span class="original-price">₹435</span>
+                            <span class="discount">8% off</span>
+                        </div>
+                        <div class="g-btn"><a href="#" class="btn btn-primary d-none d-lg-block
+">ADD CARD</a> <a href="#" class="btn btn-primary">BUY NOW</a></div>
+                    </div>
+            </div>
+            <div class="g-card card col-6 col-md-4 col-lg-2" style="width: 160px;"><a href="Grocery.html">
+                    <img src="grocery/Household Care/3.jpeg" class="g-card-img card-img-top" alt="oil">
+                    <div class="card-body">
+                        <h5 class="card-title text-dark">Odonil Air Freshener</h5>
+                        <div class="price-section">
+                            <span class="current-price">₹149</span>
+                            <span class="original-price">₹192</span>
+                            <span class="discount">22% off</span>
+                        </div>
+                        <div class="g-btn"><a href="#" class="btn btn-primary d-none d-lg-block
+">ADD CARD</a> <a href="#" class="btn btn-primary">BUY NOW</a></div>
+                    </div>
+            </div></a>
+            <div class="g-card card col-6 col-md-4 col-lg-2" style="width: 160px;"><a href="Grocery.html">
+                    <img src="grocery/Household Care/4.jpeg" class="g-card-img card-img-top" alt="oil">
+                    <div class="card-body">
+                        <h5 class="card-title text-dark">Lizol Floor Cleaner</h5>
+                        <div class="price-section">
+                            <span class="current-price">₹753</span>
+                            <span class="original-price">₹949</span>
+                            <span class="discount">20% off</span>
+                        </div>
+                        <div class="g-btn"><a href="#" class="btn btn-primary d-none d-lg-block
+">ADD CARD</a> <a href="#" class="btn btn-primary">BUY NOW</a></div>
+                    </div>
+            </div></a>
+            <div class="g-card card col-6 col-md-4 col-lg-2" style="width: 160px;"><a href="Grocery.html">
+                    <img src="grocery/Household Care/5.jpeg" class="g-card-img card-img-top" alt="oil">
+                    <div class="card-body">
+                        <h5 class="card-title text-dark">VIM Liquid Gel</h5>
+                        <div class="price-section">
+                            <span class="current-price">₹287</span>
+                            <span class="original-price">₹405</span>
+                            <span class="discount">29% off</span>
+                        </div>
+                        <div class="g-btn"><a href="#" class="btn btn-primary d-none d-lg-block
+">ADD CARD</a> <a href="#" class="btn btn-primary">BUY NOW</a></div>
+                    </div>
+            </div></a>
+            <div class="g-card card col-6 col-md-4 col-lg-2" style="width: 160px;"><a href="Grocery.html"><a href="#">
+                        <img src="grocery/Household Care/6.jpeg" class="g-card-img card-img-top" alt="oil">
+                        <div class="card-body">
+                            <h5 class="card-title text-dark">RIN Matic Liquid</h5>
+                    </a></a>
+                <div class="price-section">
+                    <span class="current-price">₹230</span>
+                    <span class="original-price">₹300</span>
+                    <span class="discount">23% off</span>
+                </div></a>
+
+                <div class="g-btn"><a href="#" class="btn btn-primary d-none d-lg-block">ADD CARD</a> <a href="#"
+                        class="btn btn-primary">BUY NOW</a></div>
+            </div>
+        </div>
+    </div>
+    <footer style="background-color: #222; color: #fff; padding: 40px 0; font-size: 14px; height: 260px;">
+        <div style="max-width: 1200px; margin: auto; display: flex; flex-wrap: wrap; justify-content: space-between;">
+
+            <!-- About Us Section -->
+            <div class="About" style="flex: 1; min-width: 200px; padding: 10px;">
+                <h3>About Us</h3>
+                <ul style="list-style: none; padding: 0;">
+                    <li><a href="#" style="color: white; text-decoration: none;">Our Story</a></li>
+                    <li><a href="#" style="color: white; text-decoration: none;">Careers</a></li>
+                    <li><a href="#" style="color: white; text-decoration: none;">Press</a></li>
+                </ul>
+            </div>
+
+            <!-- Payment Section -->
+            <div class="payment" style="background-color: #222;flex: 1; min-width: 200px; padding: 10px;">
+                <a class="text-white" href="Payment.html">
+                    <h3>Payment</h3>
+                </a>
+                <p>We accept the following payment methods:</p>
+                <ul style="list-style: none; padding: 0; display: flex; gap: 10px;">
+                    <li><img src="Payment/visa-icon.png" alt="Visa" style="width: 40px;"></li>
+                    <li><img src="Payment/mastercard-icon.png" alt="Mastercard" style="width: 40px;"></li>
+                    <li><img src="Payment/paypal-icon.png" alt="PayPal" style="width: 40px;"></li>
+                </ul>
+            </div>
+
+            <!-- Social Media Section -->
+            <div class="d-none d-md-block" style="flex: 1; min-width: 200px; padding: 10px;">
+                <h3>Follow Us</h3>
+                <p>Stay connected:</p>
+                <ul style="list-style: none; padding: 0; display: flex; gap: 10px;">
+                    <li><a href="https://facebook.com" target="_blank" style="color: white;"><i
+                                class="fa-brands fa-facebook fa-xl"></i> Facebook</a></li>
+                    <li><a href="https://twitter.com" target="_blank" style="color: white;"><i
+                                class="fa-brands fa-x-twitter fa-xl"></i> Twitter</a></li>
+                    <li><a href="https://instagram.com" target="_blank" style="color: white;"><i
+                                class="fa-brands fa-instagram fa-xl"></i> Instagram</a></li>
+                    <li><a href="https://linkedin.com" target="_blank" style="color: white;"><i
+                                class="fa-brands fa-linkedin"></i> LinkedIn</a></li>
+                </ul>
+            </div>
+
+        </div>
+        <div
+            style="background-color: #222;text-align: center; margin-top: 20px; border-top: 1px solid #444; padding-top: 20px;">
+            <p>&copy; 2025 Your E-Commerce Brand. All rights reserved.</p>
+        </div>
+    </footer>
+    </div>
+</body>
+
+</html>
